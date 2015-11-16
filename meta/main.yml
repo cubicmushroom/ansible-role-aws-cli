@@ -1,4 +1,20 @@
 ---
+galaxy_info:
+  author: Toby Griffiths
+  description: Installs the AWS CLI Tools
+  company: Cubic Mushroom Ltd.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+      - all
+    - name: RedHat
+      versions:
+      - all
+    categories:
+    - system
+    - development
 dependencies:
   - role: Stouts.python
     sudo: yes
