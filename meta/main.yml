@@ -6,15 +6,15 @@ galaxy_info:
   license: MIT
   min_ansible_version: 1.2
   platforms:
-    - name: Ubuntu
-      versions:
-      - all
-    - name: RedHat
-      versions:
-      - all
-    categories:
-    - system
-    - development
+  - name: Ubuntu
+    versions:
+    - all
+  - name: RedHat
+    versions:
+    - all
+  categories:
+  - system
+  - development
 dependencies:
   - role: Stouts.python
     sudo: yes
