@@ -1,0 +1,5 @@
+---
+dependencies:
+  - role: Stouts.python
+    sudo: yes
+    python_versions: [2.7]
