@@ -4,3 +4,9 @@
   pip: >
     name=awscli
   become: yes
+  tags: 'aws_cli_tools.install'
+
+- name: Create config dir
+  file: 'path={{aws_users_home_dir}}//.aws mode=0755 state=directory'
+  with_items: '{{aws_cli_users}}'
+  tags: 'aws_cli_tools.config'

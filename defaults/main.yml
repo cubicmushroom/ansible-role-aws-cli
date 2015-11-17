@@ -1,2 +1,11 @@
 ---
 # defaults file for aws-cli-tools
+
+# Default user's home directory to place `.aws` config directory in
+aws_users_home_dir: /home
+
+# Add users here in the form...
+# aws_cli_users:
+#   - { name: bob }
+#   - { name: alice, home: /some/non-default/home/alice }
+aws_cli_users: []
