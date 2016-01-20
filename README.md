@@ -30,7 +30,7 @@ users too:
 
     - hosts: servers
       roles:
-         - { role: username.rolename, x: 42 }
+         - { role: toby-griffiths.aws-cli-tools }
 
 License
 -------
